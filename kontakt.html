@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <!--Delete this meta before exporting to server-->
+    <meta name="robots" content="noindex">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kontakt - LAS</title>
+
+    <link rel="stylesheet" href="main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Play&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>L. A. S.</h1>
+        </div>
+
+        <a id="hamburger" href="javascript:void(0);" onclick="mobileNav()"><img src="icons/hamburger-40-white.png" alt="hamburger icon"></a>
+
+        <nav id="mainNav">
+            <a href="index.html">Hem</a>
+            <a href="bokning.html">Bokning</a>
+            <a href="bilder.html">Bilder</a>
+            <a class="activeLink" href="kontakt.html">Kontakt</a>
+        </nav>
+    </header>
+
+    <main id="kontakt">
+        <section>
+            <h1>Kontakt och Styrelse</h1>
+<!--
+            <form class="infoBox" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+                <input type="text" id="name" name="name" placeholder="Namn" value="<?php echo $name;?>">
+                <span class="errorMessage"><?php echo $nameErr;?></span>
+
+                <input type="text" id="email" name="email" placeholder="Email" value="<?php echo $email;?>">
+                <span class="errorMessage"><?php echo $emailErr;?></span>
+
+                <input type="text" id="topic" name="topic" placeholder="Ämne" value="<?php echo $topic;?>">
+                <span class="errorMessage"><?php echo $topicErr;?></span>
+
+                <textarea name="message" placeholder="Meddelande"><?php echo $message;?></textarea>
+                <span class="errorMessage"><?php echo $messageErr;?></span>
+
+                <input type="submit" name="submit" value="Skicka">
+            </form>
+-->
+            <a href="tel:000000000">000 - 000 00 00</a>
+
+            <div class="infoBox">
+                <div>
+                    <p>
+                        Ordförande:
+                    </p>
+
+                    <p>
+                        Lorem ipsum
+                    </p>
+                </div>
+
+                <div>
+                    <p>
+                        Vice ordförande:
+                    </p>
+
+                    <p>
+                        Lorem ipsum
+                    </p>
+                </div>
+
+                <div>
+                    <p>
+                        Kassör:
+                    </p>
+
+                    <p>
+                        Lorem ipsum
+                    </p>
+                </div>
+
+                <div>
+                    <p>
+                        Sekreterare:
+                    </p>
+
+                    <p>
+                        Lorem ipsum
+                    </p>
+                </div>
+
+                <div>
+                    <p>
+                        Ledamot:
+                    </p>
+
+                    <p>
+                        Lorem ipsum
+                    </p>
+                </div>
+
+                <div>
+                    <p>
+                        Ledamot:
+                    </p>
+
+                    <p>
+                        Lorem ipsum
+                    </p>
+                </div>
+
+                <div>
+                    <p>
+                        Suppleant:
+                    </p>
+
+                    <p>
+                        Lorem ipsum
+                    </p>
+                </div>
+
+                <div>
+                    <p>
+                        Suppleant:
+                    </p>
+
+                    <p>
+                        Lorem ipsum
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <p>
+                Commodi 144
+            </p>
+
+            <p>
+                463 96 Architecto
+            </p>
+
+            <p>
+                Voluptatem: 0000 - 0000
+            </p>
+
+            <p>
+                Sapiente: 000 000 00 00
+            </p>
+        </div>
+
+        <p>
+            <a href="kontakt.html">Kontakt</a>
+        </p>
+
+        <div class="socialBox">
+            <a href="#"><img src="icons/facebook.png" alt=""></a>
+            <a href="#"><img src="icons/facebook.png" alt=""></a>
+            <a href="#"><img src="icons/facebook.png" alt=""></a>
+        </div>
+    </footer>
+
+    <div id="cookie">
+        <h2>Webbplatsen använder kakor</h2>
+        <h3>Vi använder kakor för att förbättra din upplevelse på vår hemsida och för webbanalys.</h3>
+        <h3>Genom att klicka på ”Okej, jag förstår” godkänner du användandet av cookies.</h3>
+        <button onclick="cookieConsent()">Okej, jag förstår</button>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+
+</html>
